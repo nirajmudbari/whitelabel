@@ -11,7 +11,12 @@ import org.springframework.web.bind.annotation.RestController;
 @Controller
 public class HomeController {
     @GetMapping("/")
-    public String indexPage(){
+    public String indexPage() {
         return "index";
+    }
+
+    @GetMapping("/result")
+    public String resultPage() {
+        return "result";
     }
 }
