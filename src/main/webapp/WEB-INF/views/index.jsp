@@ -15,7 +15,17 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
-<a href="/widget">Widget Builder</a>
+<section id="header">
+    <div>
+        <div class="header-title">
+            Explore Tours All Over The World
+        </div>
+        <div class="header-search">
+
+        </div>
+    </div>
+</section>
+
 <script src="/js/app.js"></script>
 </body>
 </html>
