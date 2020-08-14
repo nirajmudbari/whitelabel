@@ -13,6 +13,7 @@
     />
     <script type="text/JavaScript" src="http://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="/css/style.css">
+
 </head>
 <body>
 <a href="/widget">Widget Builder</a>
