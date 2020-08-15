@@ -1516,6 +1516,41 @@ Nature Tours
         </div>
     </div>
 </div>
+<section id="footer">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
+        <path
+                fill="#f8f9fa"
+                fill-opacity="1"
+                d="M0,160L48,154.7C96,149,192,139,288,138.7C384,139,480,149,576,154.7C672,160,768,160,864,165.3C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
+    </svg>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 footer-box">
+                <p><b>ABOUT US</b></p>
+                <p>
+                    TripLocator is an online travel company which specializes in providing travel services to destinations around the globe.We consider it a point of honor to connect you with only the world's best travel service providers.
+                </p>
+            </div>
+            <div class="col-md-4 footer-box">
+                <p><b>CONTACT US</b></p>
+                <p>
+                    <i class="fa fa-map-marker"></i> Steamboat Springs, CO, United States
+                </p>
+                <p><i class="fa fa-phone"></i>  + 970-367-5600</p>
+                <p><i class="fa fa-envelope-o"></i>contact@triplocator.com</p>
+            </div>
+            <div class="col-md-4 footer-box">
+                <p><b>SUBSCRIBE FOR UPDATES</b></p>
+                <input type="email" class="form-control" placeholder="Your Email" />
+                <button type="button" class="btn btn-primary">Subscribe</button>
+            </div>
+        </div>
+        <hr />
+        <p class="copyright">© Copyright 2020 TripLocator Inc, USA All Rights Reserved  </p>
+    </div>
+</section>
+
 <script async src="../js/app.js"></script>
 </body>
 </html>
