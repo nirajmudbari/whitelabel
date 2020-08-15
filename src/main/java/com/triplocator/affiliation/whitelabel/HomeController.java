@@ -1,8 +1,14 @@
 package com.triplocator.affiliation.whitelabel;
 
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import java.util.LinkedHashMap;
+import java.util.List;
+import java.util.Map;
 
 /**
  * @author Anil Maharjan
@@ -19,4 +25,5 @@ public class HomeController {
     public String resultPage() {
         return "result";
     }
+
 }
