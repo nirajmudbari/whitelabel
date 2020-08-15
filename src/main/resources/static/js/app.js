@@ -49,7 +49,7 @@ $.ajax({
     contentType: "application/json",
     success: function (data) {
         data.forEach((json) => {
-           
+
         });
     },
     error: function () {},
