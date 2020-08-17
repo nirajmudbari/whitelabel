@@ -23,31 +23,3 @@ $(document).ready(function () {
         }
     });
 });
-
-
-function fetchFilterTourData() {
-    dataObj = {
-        tourName: tourName,
-        image: image,
-        imageAlt: imageAlt,
-        locationName: locationName,
-        countryName: countryName,
-        url: url,
-        ratingStar: ratingStar,
-        review: review,
-        minAmount: minAmount,
-        oldAmount: oldAmount
-    }
-    $.ajax({
-        type: "GET",
-        url: "http://localhost:3000/tours",
-        contentType: "application/json",
-        // headers: { "X-CSRF-TOKEN": token },
-        success: function (res) {
-            console.log(res);
-            alert(res);
-        },
-        error: function () {
-        }
-    });
-}
