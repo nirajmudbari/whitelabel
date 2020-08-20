@@ -158,8 +158,8 @@ function viewFilter(obj) {
         '\t\t\t\t\t<input type="checkbox" id="price3"  name="price3"> &nbsp;<label for="price3">$2000 - $3000</label><br/>\n' +
         '\t\t\t\t\t<input type="checkbox" id="price4"  name="price4"> &nbsp;<label for="price4">$3000 - $4000</label><br/>\n' +
         '\t\t\t\t\t<input type="checkbox" id="price5"  name="price5"> &nbsp;<label for="price5">$4000 - above</label><br/>' +
-        '</fieldset><h4>Deals & Discounts</h4><fieldset\n' +
-        '                    <input type="checkbox" id="discount1"  name="discount1"> &nbsp;<label for="discount1">0%</label><br/>\n' +
+        '</fieldset><h4>Deals & Discounts</h4><fieldset>\n' +
+        '\t\t\t\t\t<input type="checkbox" id="discount1"  name="discount1"> &nbsp;<label for="discount1">0%</label><br/>\n' +
         '\t\t\t\t\t<input type="checkbox" id="discount2"  name="discount2"> &nbsp;<label for="discount2">25%</label><br/>\n' +
         '\t\t\t\t\t<input type="checkbox" id="discount3"  name="discount3"> &nbsp;<label for="discount3">50%</label><br/>\n' +
         '\t\t\t\t\t<input type="checkbox" id="discount4"  name="discount4"> &nbsp;<label for="discount4">75%</label><br/>\n' +
@@ -196,7 +196,7 @@ function viewFilter(obj) {
         '<span class="fa fa-star unchecked"></span>\n' +
         '<span class="fa fa-star unchecked"></span>\n' +
         '<span class="fa fa-star unchecked"></span>\n' +
-        '<span class="fa fa-star unchecked"></span></label><br/><h4>Duration</h4>\n' +
+        '<span class="fa fa-star unchecked"></span></label></fieldset><h4>Duration</h4><fieldset>\n' +
         '                    <input type="checkbox" id="duration1"  name="duration1"> &nbsp;<label for="duration1">0 - 9</label><br/>\n' +
         '\t\t\t\t\t<input type="checkbox" id="duration2"  name="duration2"> &nbsp;<label for="duration2">10 - 18</label><br/>\n' +
         '\t\t\t\t\t<input type="checkbox" id="duration3"  name="duration3"> &nbsp;<label for="duration3">19 - 27</label><br/>\n' +
