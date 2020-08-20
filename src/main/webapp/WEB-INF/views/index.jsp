@@ -13,19 +13,12 @@
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link
-            type="text/css"
-            rel="Stylesheet"
-            href="http://ajax.microsoft.com/ajax/jquery.ui/1.8.5/themes/redmond/jquery-ui.css"
+            href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+            rel="stylesheet"
     />
-    <script
-            type="text/javascript"
-            src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"
-    ></script>
-    <script
-            type="text/javascript"
-            src="http://ajax.microsoft.com/ajax/jquery.ui/1.8.5/jquery-ui.min.js"
-    ></script>
     <link
             rel="stylesheet"
             href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -33,11 +26,21 @@
     <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
+
+<section id="nav-bar">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="/img/b.png" /></a>
+        </nav>
+    </div>
+</section>
+
+
 <section id="main-header">
     <div class="container">
-        <div class="logo">
-            <img src="/img/b.png" />
-        </div>
+        <!-- <div class="logo">
+          <img src="./b.png" />
+        </div> -->
     </div>
 </section>
 <section id="header">
@@ -45,7 +48,7 @@
         <div class="header-element">
             <div class="header-text">
                 Explore the best tours all over the world
-                <p style="font-size: 18px;">
+                <p style="font-size: 18px;"class="subtext">
                     Visit Europe, America, Asia, Africa or Beyond
                 </p>
             </div>
@@ -53,7 +56,10 @@
                 <div class="row">
                     <div class="col-md-5">
                         <span class="title">TOUR</span>
-                        <input type="text" class="tour-type form-control">
+                        <!-- <input type="text" class="tour-type form-control">  -->
+
+                        <input type="text" id="search" class="form-control">
+
                     </div>
                     <div class="col-md-4">
                         <span class="title">TOUR DATE</span>
