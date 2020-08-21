@@ -262,7 +262,7 @@ $(document).ready(function () {
                 output.experiences = output.experiences.filter(item => item !== self.attr("id"))
             }
         }
-
+        console.log(output);
         //call to filter data here
         $.ajax({
             type: "POST",
