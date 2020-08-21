@@ -25,52 +25,9 @@ $(document).ready(function () {
 });
 
 var site_url = 'http://localhost:8080';
-let widgetId = "1234";
-let tourUrls = [];
-let destinationUrl = '';
-let noOfTour = 10;
-// let language='en';
-// let currency='USD';
 const maxField = 10;
-const addButton = document.getElementById('add_button');
 const wrapper = document.getElementById('field_wrapper');
 
-/*
-$.ajax({
-    type: "GET",
-    url: site_url + "/currency",
-    contentType: "application/json",
-    // headers: { "X-CSRF-TOKEN": token },
-    beforeSend: function () {
-    },
-    success: function (json) {
-        const selectElement = document.getElementById("currency");
-        for (let key in json) {
-            let selectHtml="<option value='"+key+"'>"+json[key]+"</option>";
-            $(selectElement).append(selectHtml);
-        }
-    },
-    error: function () {
-    },
-});
-$.ajax({
-    type: "GET",
-    url: site_url + "/language",
-    contentType: "application/json",
-    // headers: { "X-CSRF-TOKEN": token },
-    beforeSend: function () {
-    },
-    success: function (json) {
-        const selectElement = document.getElementById("language");
-        for (let key in json) {
-            let selectHtml="<option value='"+key+"'>"+json[key]+"</option>";
-            $(selectElement).append(selectHtml);
-        }
-    },
-    error: function () {
-    },
-});
-*/
 
 function showResult(json) {
     var file = document.createElement("link");
@@ -203,68 +160,18 @@ function viewFilter(obj) {
         '\t\t\t\t\t<input type="checkbox" id="duration4"  name="duration4"> &nbsp;<label for="duration4">28 - 36</label><br/></fieldset>';
 
     for (i in obj) {
-        // console.log(i);
         html += '<h4>' + camel2title(i) + '</h4><fieldset>';
         for (key in obj[i]) {
-            html += ' <input type="checkbox" id="' + key + '"  name="' + key + '"> &nbsp;<label for="' + i + '">' + obj[i][key] + '</label><br/>';
-            // console.log( key + ": " + obj[i][key]);
+            html += ' <input type="checkbox" id="' + key + '" name="' + i + '"  value="' + key + '"> &nbsp;<label for="' + i + '">' + obj[i][key] + '</label><br/>';
         }
         html += '</fieldset>';
     }
-    // obj.tourType.forEach(data => {
-    //     html += ' <input type="checkbox" id="tour-type"  name="tour-type"> &nbsp;<label for="tour-type">' + data + '</label><br/>';
-    // });
-    /*  html += '<h4>Guiding Language</h4>';
-     obj.language.forEach(data => {
-          html += ' <input type="checkbox" id="language"  name="language"> &nbsp;<label for="language">' + data + '</label><br/>';
-      });
-      html += '<h4>Sleeping Mode</h4>';
-     obj.sleeping.forEach(data => {
-          html += ' <input type="checkbox" id="sleeping-mode"  name="sleeping-mode"> &nbsp;<label for="sleeping-mode">' + data + '</label><br/>';
-      });
-      html += '<h4>Transportation</h4>';
-     obj.transportation.forEach(data => {
-          html += ' <input type="checkbox" id="transportation"  name="transportation"> &nbsp;<label for="transportation">' + data + '</label><br/>';
-      });
-      html += '<h4>Special Service</h4>';
-      obj.specialService.forEach(data => {
-          html += ' <input type="checkbox" id="special-service"  name="special-service"> &nbsp;<label for="special-service">' + data + '</label><br/>';
-      });
-      html += '<h4>Tour Experience</h4>';
-      obj.experiences.forEach(data => {
-          html += ' <input type="checkbox" id="experience"  name="experience"> &nbsp;<label for="experience">' + data + '</label><br/>';
-      });
-      html += '<h4>Activity Categories</h4>';
-      obj.activities.forEach(data => {
-          html += ' <input type="checkbox" id="activities"  name="activities"> &nbsp;<label for="activities">' + data + '</label><br/>';
-      });*/
+
     html += '</fieldset>\n' +
         '            </div>';
     const inputElement = document.getElementById('search-result');
     $(inputElement).html(html);
 }
-
-/*function fetchFilterTourData(){
-    dataObj = {
-        tourUrls: tourUrls,
-        destinationUrl: destinationUrl,
-        language: language,
-        currency: currency,
-        tourNumber: noOfTour
-    }
-    $.ajax({
-        type: "POST",
-        url: "http://localhost:3000/tours",
-        contentType: "application/json",
-        // headers: { "X-CSRF-TOKEN": token },
-        data: dataObj,
-        success: function (json) {
-            paintWidget(json);
-        },
-        error: function () {
-        }
-    });
-}*/
 
 
 $(document).ready(function () {
@@ -292,7 +199,7 @@ $(document).ready(function () {
             "2": "Private Tour",
             "3": "Group Tour"
         },
-        "special-service": {
+        "specialService": {
             "1": "Accessible Lodging",
             "2": "Child Friendly",
             "3": "Lockers/Storage"
@@ -308,70 +215,66 @@ $(document).ready(function () {
             "3": "Arts"
         }
     }
-    // var obj = {"tourType": ["Luxury Tour", "Private Tour", "Group Tour"],
-    //     "language": ["English", "German", "Italian", "Korean", "Chinese"],
-    //     "sleeping": ["Hotel", "Guest House", "Tent/Company"],
-    //     "transportation": ["Boating", "Plane", "Car", "Walking"],
-    //     "specialService": ["Accessible Lodging", "Child Friendly", "Lockers/Storage", "Wheel Chair"],
-    //     "activities": ["Helicopter Tour", "City Tours", "Buddhist Pilgrimages", "School/Holiday"],
-    //     "experiences": ["Culture", "Adventure", "Ecotourism", "Arts"]};
     viewFilter(obj);  //send filter data here instead of dummy data.
-
-
-});
-/*
-$(addButton).click(function(){
-    if(x < maxField){
-        x++;
-        $(wrapper).append(fieldHTML);
+    var output = {
+        tourType: [],
+        language: [],
+        sleeping: [],
+        transportation: [],
+        specialService: [],
+        activities: [],
+        experiences: []
     }
-});
-$(wrapper).on('click', '.remove_button', function(e){
-    e.preventDefault();
-    $(this).parent('div').remove();
-    x--;
-});
+    $("input[type=checkbox]").change(function () {
 
-$("input[name$='tour-url']").click(function() {
-    let test = $(this).val();
-    if(test === "0"){
-        $("#destination-tour").show();
-        $("#specific-tour").hide();
-        let tourNumber = document.getElementById("destination_tour_number");
-        tourNumber.value = noOfTour;
-        destinationUrl="https://www.triplocator.com/tours/nepal/bagmati/kathmandu";
-    }
-    if(test === "1"){
-        $("#destination-tour").hide();
-        $("#specific-tour").show();
-    }
-});
+        if (this.checked) {
+            var self = $(this);
+            if (self.attr("name") == "tourType") {
+                output.tourType.push(self.attr("id"));
+            } else if (self.attr("name") == "language") {
+                output.language.push(self.attr("id"));
+            } else if (self.attr("name") == "sleeping") {
+                output.sleeping.push(self.attr("id"));
+            } else if (self.attr("name") == "transportation") {
+                output.transportation.push(self.attr("id"));
+            } else if (self.attr("name") == "specialService") {
+                output.specialService.push(self.attr("id"));
+            } else if (self.attr("name") == "activities") {
+                output.activities.push(self.attr("id"));
+            } else if (self.attr("name") == "experiences") {
+                output.experiences.push(self.attr("id"));
+            }
+        } else if (!this.checked) {
+            var self = $(this);
+            if (self.attr("name") == "tourType") {
+                output.tourType = output.tourType.filter(item => item !== self.attr("id"))
+            } else if (self.attr("name") == "language") {
+                output.language = output.language.filter(item => item !== self.attr("id"))
+            } else if (self.attr("name") == "sleeping") {
+                output.sleeping = output.sleeping.filter(item => item !== self.attr("id"))
+            } else if (self.attr("name") == "transportation") {
+                output.transportation = output.transportation.filter(item => item !== self.attr("id"))
+            } else if (self.attr("name") == "specialService") {
+                output.specialService = output.specialService.filter(item => item !== self.attr("id"))
+            } else if (self.attr("name") == "activities") {
+                output.activities = output.activities.filter(item => item !== self.attr("id"))
+            } else if (self.attr("name") == "experiences") {
+                output.experiences = output.experiences.filter(item => item !== self.attr("id"))
+            }
+        }
 
-function tourLinkChange() {
-    let tourlink = document.getElementsByName("tour_link[]");
-    tourlink.forEach(tour =>{
-        console.log(tourUrls);
-        tourUrls.push(tour.value);
-        destinationUrl='';
+        //call to filter data here
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:3000/filter",
+            contentType: "application/json",
+            // headers: { "X-CSRF-TOKEN": token },
+            data: output,
+            success: function (json) {
+                preview(json);
+            },
+            error: function () {
+            }
+        });
     });
-}
-
-function destinationLinkChange(){
-    let tourlink = document.getElementById("destination_link");
-    destinationUrl = tourlink.value;
-    tourUrls = [];
-    noOfTour = 0;
-}
-function numberOfToursSelected(){
-    let tourNumber = document.getElementById("destination_tour_number");
-    noOfTour = tourNumber.value;
-}
-function languageSelected(){
-    let languageE = document.getElementById("language");
-    language = languageE.value;
-}
-function currencySelected(){
-    let currencyE = document.getElementById("currency");
-    currency = currencyE.value;
-}
-*/
+});
