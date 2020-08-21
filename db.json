@@ -1,0 +1,284 @@
+{
+  "tours": [
+    {
+      "tourName": "Gosainkunda Helicopter Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/gosainkunda-helicopter-tour/gosaikunda-helicopter-tour.jpg",
+      "imageAlt": "Gosainkunda Helicopter Tour",
+      "locationName": "Rasuwa",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/rasuwa/gosainkunda-helicopter-tour.html",
+      "ratingStar": 0,
+      "duration": 1,
+      "review": 3,
+      "durationType": "day",
+      "oldAmount": null,
+      "minAmount": "$2557.00",
+      "discount": 0.0
+    },
+    {
+      "tourName": "Everest Base Camp Helicopter Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/everest-base-camp-helicopter-tour6/everest.jpg",
+      "imageAlt": "Everest Base Camp Helicopter Tour",
+      "locationName": "Solukhumbu",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html",
+      "ratingStar": 4,
+      "duration": 1,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "",
+      "minAmount": "$1112.00",
+      "discount": 0.0
+    },
+    {
+      "tourName": "Chitwan Jungle Safari Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/chitwan-jungle-safari-tour/chitwan-tharu-presentation.jpg",
+      "imageAlt": "Chitwan Jungle Safari Tour",
+      "locationName": "Chitwan",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/chitwan/chitwan-jungle-safari-tour.html",
+      "ratingStar": 0,
+      "duration": 3,
+      "review": 6,
+      "durationType": "day",
+      "oldAmount": "$110.00",
+      "minAmount": "$106.70",
+      "discount": 3.0
+    },
+    {
+      "tourName": "Chitwan Jungle Safari Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/chitwan-jungle-safari-tour/chitwan-tharu-presentation.jpg",
+      "imageAlt": "Chitwan Jungle Safari Tour",
+      "locationName": "Chitwan",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/chitwan/chitwan-jungle-safari-tour.html",
+      "ratingStar": 0,
+      "duration": 3,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "$110.00",
+      "minAmount": "$106.70",
+      "discount": 3.0
+    },
+    {
+      "tourName": "Gosainkunda Helicopter Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/gosainkunda-helicopter-tour/gosaikunda-helicopter-tour.jpg",
+      "imageAlt": "Gosainkunda Helicopter Tour",
+      "locationName": "Rasuwa",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/rasuwa/gosainkunda-helicopter-tour.html",
+      "ratingStar": 0,
+      "duration": 1,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": null,
+      "minAmount": "$2557.00",
+      "discount": 0.0
+    },
+    {
+      "tourName": "Everest Base Camp Helicopter Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/everest-base-camp-helicopter-tour6/everest.jpg",
+      "imageAlt": "Everest Base Camp Helicopter Tour",
+      "locationName": "Solukhumbu",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html",
+      "ratingStar": 4,
+      "duration": 1,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "",
+      "minAmount": "$1112.00",
+      "discount": 0.0
+    },
+    {
+      "tourName": "Chitwan Jungle Safari Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/chitwan-jungle-safari-tour/chitwan-tharu-presentation.jpg",
+      "imageAlt": "Chitwan Jungle Safari Tour",
+      "locationName": "Chitwan",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/chitwan/chitwan-jungle-safari-tour.html",
+      "ratingStar": 0,
+      "duration": 3,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "$110.00",
+      "minAmount": "$106.70",
+      "discount": 3.0
+    },
+    {
+      "tourName": "Chitwan Jungle Safari Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/chitwan-jungle-safari-tour/chitwan-tharu-presentation.jpg",
+      "imageAlt": "Chitwan Jungle Safari Tour",
+      "locationName": "Chitwan",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/chitwan/chitwan-jungle-safari-tour.html",
+      "ratingStar": 0,
+      "duration": 3,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "$110.00",
+      "minAmount": "$106.70",
+      "discount": 3.0
+    },
+    {
+      "tourName": "Everest Base Camp Helicopter Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/everest-base-camp-helicopter-tour6/everest.jpg",
+      "imageAlt": "Everest Base Camp Helicopter Tour",
+      "locationName": "Solukhumbu",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html",
+      "ratingStar": 4,
+      "duration": 1,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "",
+      "minAmount": "$1112.00",
+      "discount": 0.0
+    },
+    {
+      "tourName": "Chitwan Jungle Safari Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/chitwan-jungle-safari-tour/chitwan-tharu-presentation.jpg",
+      "imageAlt": "Chitwan Jungle Safari Tour",
+      "locationName": "Chitwan",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/chitwan/chitwan-jungle-safari-tour.html",
+      "ratingStar": 0,
+      "duration": 3,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "$110.00",
+      "minAmount": "$106.70",
+      "discount": 3.0
+    },
+    {
+      "tourName": "Chitwan Jungle Safari Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/chitwan-jungle-safari-tour/chitwan-tharu-presentation.jpg",
+      "imageAlt": "Chitwan Jungle Safari Tour",
+      "locationName": "Chitwan",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/chitwan/chitwan-jungle-safari-tour.html",
+      "ratingStar": 0,
+      "duration": 3,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "$110.00",
+      "minAmount": "$106.70",
+      "discount": 3.0
+    },
+    {
+      "tourName": "Everest Base Camp Helicopter Tour",
+      "image": "https://www.triplocator.com/image/medium/tourunverified/everest-base-camp-helicopter-tour6/everest.jpg",
+      "imageAlt": "Everest Base Camp Helicopter Tour",
+      "locationName": "Solukhumbu",
+      "countryName": "Nepal",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html",
+      "ratingStar": 4,
+      "duration": 1,
+      "review": 0,
+      "durationType": "day",
+      "oldAmount": "",
+      "minAmount": "$1112.00",
+      "discount": 0.0
+    }
+  ],
+  "data": [
+    {
+      "label": "anders",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "andreas",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "antal",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "annhhx10",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "annk K12",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "annttop C13",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "anders andersson",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "andreas andersson",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    },
+    {
+      "label": "andreas johnson",
+      "category": "Tours",
+      "url": "https://www.triplocator.com/tour/nepal/solukhumbu/everest-base-camp-helicopter-tour6.html"
+    }
+  ],
+  "images": [
+    {
+      "type": "image",
+      "url": "https://www.triplocator.com/image/medium/tourunverified/gosainkunda-helicopter-tour/gosaikunda-helicopter-tour.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://www.triplocator.com/image/medium/tourunverified/everest-base-camp-helicopter-tour6/everest.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://www.triplocator.com/image/medium/tourunverified/gosainkunda-helicopter-tour/gosaikunda-helicopter-tour.jpg"
+    },
+    {
+      "type": "image",
+      "url": "https://www.triplocator.com/image/medium/tourunverified/everest-base-camp-helicopter-tour6/everest.jpg"
+    }
+  ],
+  "simpleItinerary": {
+    "itinerary": "<p><strong>Day 1: Morning Flight from Kathmandu to Lukla and trek to Phakding (2610m / 8563 ft)</strong></p><p>We begin our journey with a quick transfer to the domestic airport and early morning 25 minute scenic flight to Lukla. The cool breeze of the Himalayas can be instantly felt in the air upon landing in Lukla. We take breakfast while the crew prepares the luggage and start walk towards Cheplung to reach our first overnight destination at Phakding Village. </p><p><em>Drive: 30min | Flight: 25min | Walk: 3- 4 hrs |&nbsp;Meals: B, L, D&nbsp;</em></p><p>&nbsp;</p><p><strong>Day 2: Trek from Phakding to Namche Bazaar (3440m/11286 ft)</strong></p><p>We start after the breakfast, and walk through pine forest entering Benkar valley and cross Dudh Koshi River to reach the entrance to Sagarmatha National Park at Jorsalle. We check/make our permit and continue to test our strength with a steep climb and multiple suspension bridges to take us to the hub of Khumbu region at Namche Bazaar. We will have our first sight to Everest on the way to Namche.&nbsp;</p><p><em>Walk: 5 - 6 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 3: Rest and acclimatization day at Namche Bazaar (3440m/11286 ft)</strong></p><p>Today is exploration and acclimatization day at Namche Bazaar, as we take couple of hours hike to scenic Everest View Hotel through the world highest airstrip at Syangboche and then an interesting side trip to Khumjung village to visit Hillary School and monastery. Everest View Hotel (3880m) provides a fantastic panorama of Khumbila, Taboche, Cholatse, Mt. Everest, Nuptse, Peak 38, Island Peak, Ama Dablam, Thamserku, Kantega and Kwongde peak. </p><p><em>Walk: 4 - 5 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 4: Trek from Namche Bazaar to Tyangboche (3870m/12697 ft)</strong></p><p>We walk enjoying a superb view of snow capped peaks and meet a junction where the trails separate for EBC or Gokyo Valley. We begin to descend through pine forest towards the suspension bridge at Phunki Tenga and gradually ascend to reach Tyangboche which has a biggest monastery of Everest region. We can pay visit to monastery and participate in puja ceremony which normally starts after 3 pm. The close up vista of Everest, Nuptse, Ama Dablam, Peak 38 and Island Peak are just breathtaking from here. </p><p><em>Walk: 5 – 6 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 5: Trek from Tyangboche to Dingboche (4410m/14468 ft)</strong></p><p>Enjoying the front view of the Himalayas and receiving a sacred blessing of monastery, we start to descend through lush forest of birch &amp; confer towards small settlement of Deboche and continue to Pangboche village. While passing through mani wall and chortens with moderate climb and non-stop view of Ama Dablam and Mt. Pumori, we enter the Imja Valley and make final ascend to quaint village of Dingboche. </p><p><em>Walk: 5 – 6 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 6: Rest and Acclimatization Day: Visit Chukung Valley </strong></p><p>We take this day to acclimatize ourselves and reach as much as higher to pursue our quest to world highest base camp. We hike to Chukung and surrounding hill until 5000m and the amazing views of the mountain peak are still there and feel like getting lot closer now. We relax in the evening with a dinner and bowl of garlic soup for worriless good night sleep. </p><p><em>Walk: 4 – 5 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 7: Trek from Dingboche to Lobuche (4910m/16109 ft)</strong></p><p>We begin slowly with an easy pace enjoying the company of mighty Lobuche Peak (6919m) in the left, Ama Dablam (6812m) on the back and Mt. Pumori (7219m) in the front along with several others. The trail is relatively easy until the small teahouse of Dugla where we will stop for quick break before ascending to Chupki Lhara which is filled with prayers flags and has memorial shrine of the climbers who lost their lives in the expedition. After capturing the spectacular view from this ridge, we follow the Khumbu moraine and continue to Lobuche with an awarding view of Mt. Pumori, Lingtren, Khumbutse and Mt. Nuptse. </p><p><em>Walk: 4 – 5 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 8: Trek from Lobuche to Gorakshep (5120m/ 16798 ft): Side Trip to EBC (5364m / 17598 ft.) </strong></p><p>A scenic trail followed with the view of the Khumbu glacier and North ridge of the Everest along with surrounding peaks welcomes you to Gorakshep. After the lunch and minutes rest on reaching Gorakshep, we visit stunning Everest Base Camp enjoying our walk on glacier path and rough terrains. While we watch the beautiful view of the snowy peaks, we can witness the climbers and Sherpas who are getting ready for the expedition to scale world’s highest peak. After spending some time and capturing images, we walk back to Gorakshep to have early dinner and good night rest for early morning tomorrow.&nbsp;</p><p><em>Walk: 7 – 8 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 9: Sunrise Climb to Kala Patthar (5545m / 18192 ft.) and trek to Pheriche (4240m/ 13911 ft)</strong></p><p>This is another most interesting day of this journey where we begin our walk to reach 5545m in the dark and chilling winds with all geared up to witness the magical first light on the top of Everest. Kala Patthar is the most popular view-point and takes 1.5-2 hours of steep walk to reach from the base of Gorakshep so we maintain a fairly comfortable pace and start around 4am in the morning (starting time varies with the sunrise time). All of our efforts will be rewarded with magnificent view of more than thirty mountain peaks including world 1st, 3rd, 4th, 5th and 6th highest peak of the world. We spend some time on the top admiring the beauty of nature and capturing those moments in camera. We descend to Gorakshep, have breakfast and continue to Lobuche and further more to Pheriche which lies adjacent to Dingboche village. </p><p><em>Walk: 7 – 8 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p><strong>&nbsp;</strong></p><p><strong>Day 10: Trek from Pheriche to Phortse Village (3810m / 12500 ft)</strong></p><p>After tiring day yesterday, we slowly retrace our route until Pangboche village and take an upper route, visit Pangboche Monastery and continue towards Phortse village. The trek follows the raging Dudh Koshi river and offer a magnificent view of Ama Dablam on the back and Tyangboche Monastery in the front. It takes approx. three hours to reach Phortse village from Pangboche. </p><p><em>Walk: 5 – 6 hrs | Accommodation: Hotel | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 11: Trek from Phortse Village to Monjo (2835m/9301 ft)</strong></p><p>We will come across a junction to two destination on our short walk — one goes to Namche Bazaar and other to Gokyo Valley and you know which one we will take. We start to descend towards Khumjung village and arrive Namche for lunch. Now the path is complete downhill until Monjo so it’s better to descend slowly by maintaining a good pace as the legs get shaky and might lose the control of the body. The overlooking valley and passing trekkers and yaks keep us moving. </p><p><em>Walk: 5 - 6 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 12: Trek from Monjo to Lukla (2840m/9318 ft)</strong></p><p>Today is the final day walk on the Land of Everest. Our route goes moderately up and down, crossing suspension bridges, passing chortens &amp; mani walls, small gompas and you know, the same village on our way up until Lukla. Give yourself a pat on your shoulder. You’ve done it! You are an adventurer! </p><p>We check into our last teahouse, get cleaned, take some rest and get ready for our last dinner with all crew members sharing that special moment of trip completion. </p><p><em>Walk: 4 - 5 hrs | Accommodation: Local Teahouse | Meals: B, L, D</em></p><p>&nbsp;</p><p><strong>Day 13: Morning Flight from Lukla to Kathmandu and transfer to Hotel</strong></p><p>We walk to airport and take a morning flight to Kathmandu. A last sight of the Himalayas is yet to be seen from the plane. Our vehicles are ready at the airport to transfer you to your hotel. You can have a day to yourself to take rest. We will have another farewell and celebration dinner in the evening where we exchange our travel experience while enjoying the cultural show (or the next day if you feel tired and to be with yourself).</p><p><em>Flight: 25 min. | Drive: 30-45 min | Meals: Dinner&nbsp;</em></p>"
+  },
+  "priceInclude": {
+    "tripPriceInclude": "<ul><li>All Arrival and Departure Airport Transfer</li><li>Experienced License Holder Guide, Carrying Staffs, Assistant Guide, Support Staff, Sherpa including their salary, accommodation, transportation, food, flight and insurance</li><li>Breakfast, Lunch, Dinner, Tea/Coffee and seasonal fruits during trekking</li><li>Best suited local teahouse and tents accommodation (private or shared basis)</li><li>Round trip Domestic Flight Fare (Kathmandu to Lukla) with airport taxes</li><li>All Grounded Transportation while trekking (Private Vehicle)</li><li>All Necessary Local and Sagarmatha National Park Permit</li><li>Comprehensive First Aid Kit (bring your personal medication, if have any)</li><li>Complimentary Sleeping Bag, Down Jacket (if you don’t have any; return after use)</li><li>Trekking Map and Adventure Certificate</li><li>All applicable fees, local taxes and government taxes</li></ul>"
+  },
+  "priceExclude": {
+    "priceExclude": "<ul><li>International Flight Fare /Nepal Visa Fee</li><li>Meals, Drinks and Accommodation in Kathmandu</li><li>All Drinks expenses (Water/ Soft &amp; Hard/ Beer/Juice) during trekking</li><li>Personal Expenses like Phone Calls, Laundry, Battery Charging, Shopping, Hot Shower, Internet Use, Additional Carryin Staff Support etc</li><li>Tips of Gratitude for Crew Members</li><li>Cost arises due obstruction and delay on the programmed itinerary due natural, social &amp; political causes (reason beyond control)</li><li>Tour/ Sightseeing in Kathmandu Valley</li><li>Unforeseen accidents, Delays, Loss, Damage, Travel Insurance</li><li>Any other items besides mentioned in Service Provided Section</li></ul>"
+  },
+  "additonalServices": {
+    "service": "<ul><li>LOCKERS/STORAGE</li></ul>"
+  },
+  "faqs": [
+    {
+      "id": 1,
+      "question": "How much we will drive each day?",
+      "answer": "We will drive around four to five hours each day with enroute stops"
+    },
+    {
+      "id": 2,
+      "question": "How much we will drive each day?",
+      "answer": "We will drive around four to five hours each day with enroute stops"
+    },
+    {
+      "id": 3,
+      "question": "How much we will drive each day?",
+      "answer": "We will drive around four to five hours each day with enroute stops"
+    },
+
+    {
+      "id": 4,
+      "question": "How much we will drive each day?",
+      "answer": "We will drive around four to five hours each day with enroute stops"
+    }
+  ]
+}

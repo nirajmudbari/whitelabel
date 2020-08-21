@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+#nav-bar {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background: #78ba36;
+  border-bottom: 1px solid #eaeaea;
+}
+.header-text {
+  color: #ffff;
+  font-size: 40px;
+  font-weight: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+}
+#main-content {
+  background: #f9f9f9;
+}
+#nav-bar img {
+  height: 40px;
+}
+#breadcrumb {
+  background: #efefef;
+  height: 40px;
+}
+.fa-star-o {
+  color: #fe8800;
+  font-size: 17px !important;
+}
+.fa-bar-chart {
+  color: green;
+}
+.main-title {
+  margin-top: 40px;
+}
+.main-title h1 {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0;
+}
+.product-info {
+  background: #fff;
+  padding: 20px;
+  margin-top: 20px;
+}
+.product-info ul {
+  margin: 0;
+  padding: 0;
+}
+.product-info ul i {
+  font-size: 24px;
+}
+.product-info ul > li {
+  display: inline-block;
+  list-style: none;
+  text-align: center;
+}
+.product-info ul > li:not(:last-child) {
+  border-right: 1px solid #ececec;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+.product-info ul span {
+  display: block;
+  font-size: 14px;
+  font-weight: 550;
+}
+
+#package-qr-list img {
+  height: 70px !important;
+  width: 70px !important;
+  position: relative;
+  bottom: 10px;
+}
+.calendar {
+  margin-top: 40px;
+}
+
+#media {
+  margin-top: 140px;
+}
+body {
+  background-color: #aacccc;
+}
+
+.js .slider-single > div:nth-child(1n + 2) {
+  display: none;
+}
+
+.js .slider-single.slick-initialized > div:nth-child(1n + 2) {
+  display: block;
+}
+
+h3 {
+  background: #f0f0f0;
+  color: #3498db;
+  font-size: 2.25rem;
+  margin: 0.5rem;
+  padding: 2%;
+  position: relative;
+  text-align: center;
+}
+
+.slider-single h3 {
+  line-height: 10rem;
+}
+
+.slider-nav h3::before {
+  content: "";
+  display: block;
+  padding-top: 75%;
+}
+
+.slider-nav h3 span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.fixed-nav ul {
+  background: #fff;
+  padding: 18px;
+}
+.fixed-nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 10 px;
+}
+.fixed-nav ul a {
+  text-decoration: none;
+  padding: 4px 20px;
+  margin-right: 3px;
+  font-weight: 600;
+  color: #2588be;
+  font-size: 15px;
+}
+#nav {
+  margin-bottom: 20px;
+}
+.form-inline label {
+  margin-right: 5px;
+}
+
+#departure .form-inline .form-control {
+  min-width: 200px;
+  border-width: 1px;
+  border-radius: 2px;
+  margin-right: 20px;
+  box-shadow: none;
+}
