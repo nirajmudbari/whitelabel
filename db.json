@@ -280,5 +280,11 @@
       "question": "How much we will drive each day?",
       "answer": "We will drive around four to five hours each day with enroute stops"
     }
-  ]
+  ],
+  "policy": {
+    "cancellation": "This tour cannot be canceled and no refund will be issued."
+  },
+  "tripNotes": {
+    "tripNotes": "<p>Same Day Agra&nbsp;Tour by Car:&nbsp;Taj Mahal and Agra Fort.</p>"
+  }
 }
