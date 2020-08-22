@@ -145,6 +145,15 @@ jQuery(function ($) {
             }
           : { position: "relative", top: "auto" }
       );
+      $(".booking").css(
+        $(window).scrollTop() > 400
+          ? {
+              zIndex: 1,
+              position: "fixed",
+              top: "50px",
+            }
+          : { position: "relative", top: "auto" }
+      );
 
       return fix_element;
     })()

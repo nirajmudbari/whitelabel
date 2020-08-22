@@ -390,3 +390,36 @@ hr {
   font-size: 15px;
   font-weight: 600;
 }
+
+.booking {
+  margin-top: 40px;
+  background: #fff;
+  padding: 20px;
+  border-top: 4px solid #4d8d0d;
+  border-left: 1px solid#efefef;
+  border-right: 1px solid #efefef;
+  border-bottom: 1px solid #efefef;
+}
+.booking .cost span {
+  display: block;
+  font-size: 20px;
+}
+.rate {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.rate span {
+  color: #4d8d0d;
+  font-size: 25px !important;
+}
+.book-btn {
+  padding: 8px 15px;
+  margin-top: 30px;
+  border-radius: 20px;
+  width: 100%;
+  outline: none !important;
+  border: none;
+  background: #4d8d0d;
+  color: white;
+}
