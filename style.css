@@ -114,8 +114,8 @@ body {
   margin-top: 40px;
 }
 
-#media {
-  margin-top: 140px;
+#tour-images{
+  margin-top: 10px;
 }
 
 .js .slider-single > div:nth-child(1n + 2) {

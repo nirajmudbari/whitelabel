@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="01675998-7df5-48f1-b675-e51f8aa4e788" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="REMOTE">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="origin/resultpage" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="tourpage" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Users\niraa\.m2\wrapper\dists\apache-maven-3.6.3-bin\1iopthnavndlasol9gbrbg6bf2\apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1g2NDRMAeLahe4ivMvjHLDFrkWm" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_MARK_IGNORED_FILES_AS_EXCLUDED" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/css" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Niraj\whitelabel\src\main\resources\static\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Niraj\whitelabel\src\main\resources\static\css" />
+      <recent name="F:\Niraj\whitelabel\src\main\resources\static\js" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.WhitelabelApplication">
+    <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/js/app.js" working-dir="$PROJECT_DIR$/src/main/resources/static/js">
+      <method v="2" />
+    </configuration>
+    <configuration name="WhitelabelApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="whitelabel" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.triplocator.affiliation.whitelabel.WhitelabelApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.app.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01675998-7df5-48f1-b675-e51f8aa4e788" name="Default Changelist" comment="" />
+      <created>1597308614100</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1597308614100</updated>
+      <workItem from="1597308620263" duration="30125000" />
+      <workItem from="1597485814353" duration="14879000" />
+      <workItem from="1597548232745" duration="727000" />
+      <workItem from="1597646383981" duration="29403000" />
+      <workItem from="1597751626192" duration="9309000" />
+      <workItem from="1597818167155" duration="9491000" />
+      <workItem from="1597894354777" duration="13975000" />
+      <workItem from="1597924653255" duration="9904000" />
+      <workItem from="1597986527378" duration="12795000" />
+      <workItem from="1598086560622" duration="642000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1598085364472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598085364472" />
+    <state width="1323" height="208" key="GridCell.Tab.0.center" timestamp="1598085364472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1598085364472" />
+    <state width="1323" height="208" key="GridCell.Tab.0.left" timestamp="1598085364472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1598085364472" />
+    <state width="1323" height="208" key="GridCell.Tab.0.right" timestamp="1598085364472">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1598085364472" />
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom" timestamp="1598085364473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1598085364473" />
+    <state width="1323" height="208" key="GridCell.Tab.1.center" timestamp="1598085364473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1598085364473" />
+    <state width="1323" height="208" key="GridCell.Tab.1.left" timestamp="1598085364473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1598085364473" />
+    <state width="1323" height="208" key="GridCell.Tab.1.right" timestamp="1598085364473">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598085364473" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1597722487514">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1597722487514" />
+    <state x="389" y="68" width="587" height="592" key="find.popup" timestamp="1597495012782">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="389" y="68" width="587" height="592" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1597495012782" />
+    <state x="65" y="24" key="new project wizard" timestamp="1597651494016">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="65" y="24" key="new project wizard/0.0.1366.728@0.0.1366.728" timestamp="1597651494016" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1597720519487">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1597720519487" />
+  </component>
+</project>
