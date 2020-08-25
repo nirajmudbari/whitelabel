@@ -160,8 +160,6 @@ jQuery(function ($) {
 });
 
 var slideIndex = 1;
-showSlides(slideIndex);
-
 function plusSlides(n) {
   showSlides((slideIndex += n));
 }
@@ -211,4 +209,6 @@ function displayImages(data) {
     }
     const inputElement = document.getElementById('tour-images');
     $(inputElement).html(html);
+    showSlides(slideIndex);
+
 }
