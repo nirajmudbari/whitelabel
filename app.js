@@ -11,7 +11,7 @@ $.ajax({
   url: site_url + "/images",
   contentType: "applicaiton/json",
   success: function (data) {
-    populateImageSliderData(data);
+    // populateImageSliderData(data);
   },
 });
 
@@ -48,7 +48,7 @@ $.ajax({
     $(".addtional-service").append(data.service);
   },
 });
-//TODO: check if the itinerary is simple or advanced
+// TODO: check if the itinerary is simple or advanced
 //after data fetch
 // populateDepartureDate("test");
 // function populateDepartureDate(fixedDeparture) {
@@ -74,3 +74,31 @@ $(document).ready(function () {
   })
      
 });
+
+
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
