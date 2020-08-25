@@ -114,7 +114,7 @@ body {
   margin-top: 40px;
 }
 
-#tour-images{
+#tour-images {
   margin-top: 10px;
 }
 
@@ -542,4 +542,9 @@ hr {
 }
 .item-wrap {
   margin-left: 2.5rem;
+}
+@media only screen and (max-width: 767px) {
+  .booking {
+    display: none;
+  }
 }
