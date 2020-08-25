@@ -1,301 +1,317 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title>Tour Page</title>
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./style.css"/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
+            rel="stylesheet"
     />
     <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
     />
     <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
-      integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
-      crossorigin="anonymous"
+            src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+            integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+            crossorigin="anonymous"
     ></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <link
-      href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
-      rel="stylesheet"
+            href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css"
+            rel="stylesheet"
     />
     <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-  </head>
-  <body>
-    <section id="nav-bar">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-          <a class="navbar-brand" href="#"><img src="./b.png" /></a>
-        </nav>
-      </div>
-    </section>
-    <section id="breadcrumb">
-      <div class="breadcrumb-text"></div>
-    </section>
-
-  <section id="main-content">
+</head>
+<body>
+<section id="nav-bar">
     <div class="container">
-      <div class="row main">
-        <div class="col-lg-9 col-md-8">
-          <div class="main-title">
-          <h1>Everest Base Camp Trek</h1>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <a class="navbar-brand" href="#"><img src="./b.png"/></a>
+        </nav>
+    </div>
+</section>
+<section id="breadcrumb">
+    <div class="breadcrumb-text"></div>
+</section>
 
-          </div>
-          <div class="product-info">
-              <ul>
-                <li class="review">
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <i class="fa fa-star-o" aria-hidden="true"></i>
-                  <span>0 Reviews</span>
-                </li>
-                
-              
-                <li>
-                  <i class="fa fa-heart-o" aria-hidden="true"></i>
-                  <span>0 Favourites</span>
-                </li>
-                <li>
-                  <i class="fa fa-calendar" aria-hidden="true"></i>
-                  <span>20 Days</span>
+<section id="main-content">
+    <div class="container">
+        <div class="row main">
+            <div class="col-lg-9 col-md-8">
+                <div class="main-title">
+                    <h1>Everest Base Camp Trek</h1>
 
-                </li>
-                <li>
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span><a href="#">Namche Bazar</a>,<a href="">Nepal</a></span>
-                </li>
-                <li>
-                  <i class="fa fa-bar-chart" aria-hidden="true"></i>
-                  <span>Easy</span>
-                </li>
-                <li id ="package-qr-list">
-                  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQAAAADlUEq3AAAC3UlEQVR42u2bTbKjMAyE7cqCJUfIUXI0czSOwhGyzIJCI7Vkwo/hTdVspuo1G4L5vDGy1Wo7Sf7+mhNhwoQJE/5HeEm4lsenn/SuN23Ms/58DSIfvHwQbsL2SwbcRusDau7sKQu6LoQvYLy24X6KUqmXsejr93MsBk/2DQjfwfZaJKXOboIQlYhbwrcwBtjmusFDlk/MbsJ38GZ2R1CWaLxfCghvcopF6uF2nYAInwSLXsWo5+ixeSN7fjms81l0BusvWxHzjCcd2bf2SUgtu49CeK/rppdFqk7kQXOKDWrAWBhfA+E2bEFpWcRlX/IEbDkFIWrwZmEkvIPRXiKnIFIjKL2rNxJuwAuCUjMvYI/N5NO6LGvAEm7AMc4yx/poCbh4wYt3aTe7CQ97JYOgRHtG1YYnbRQf/IVwExbXyF6uIae42wJBg6eSCDdhq9PgFWi7+yvTOruj/M1CuAXHFQk4PeLJJOHgajotD8It2NSfaRcImq1+NlhcIBJuwzv9nL1qqyLwlLsJyyHDun72dBye1DtytOyXAsL5IIklh7nnMtqtl9r1qBgJf2e372D08Pi8aps7n90f+wYL4QvY0rEqmdRP7ixXX3S0oe6PdQrhrRuPcXbREiLQGwsad2KbcDlnWCs2xIfbk7M5VH5LhJswFPMr8nA1VqBrLKckN+UJt2EfUpGIRrNZ3HSp8prwNbzaeYhGXxjhxvvsToSbMHIK2qsIjBpudahkIdyEQ61YiQtXr6si8FlVTiF8BW8clSFyiu88uqVsm+CEW7CHqCVg2+7RDBMLI/YzUl00CTfgNW+EQwVJGIfxVpVDuAXHKQuZu3W/WwuRb9epcSSD8PFsz7TdyOjDhj+Ze4RP5xiRjjcb3avbUgjfwvXsZ/hVqy+KREP4RzicA9S9dfBlvD70+Othn93Voeq+JwZqIZIIt+H1HKNVGRA0m1MWsAyyEG7B/AMOYcKECf9/8B9A+Rj0IoxrcQAAAABJRU5ErkJg" >
-                </li>
-              </ul>
-          </div>
-          <div id="tour-images" >
-            <div id ="tourimg" class="slideshow-container">
+                </div>
+                <div class="product-info">
+                    <ul>
+                        <li class="review">
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <span>0 Reviews</span>
+                        </li>
 
-              <div class="mySlides">
-                <div class="numbertext">1 / 3</div>
-                <img src="https://www.triplocator.com/image/banner/tour/everest-base-camp-yoga-trek/everest-base-camp-yoga-trek.jpg" style="width:100%">
-                <!-- <div class="text">Caption Text</div> -->
-              </div>
-              
-              <div class="mySlides">
-                <div class="numbertext">2 / 3</div>
-                <img src="https://www.triplocator.com/image/banner/tourunverified/everest-base-camp-trek9/everest-base-camp.jpg" style="width:100%">
-                <!-- <div class="text">Caption Two</div> -->
-              </div>
-              
-              <div class="mySlides">
-                <div class="numbertext">3 / 3</div>
-                <img src="https://www.triplocator.com/image/banner/tour/kathmandu-city-with-chitwan-national-park-tour/bhaktapurjpg.jpg" style="width:100%">
-                <!-- <div class="text">Caption Three</div> -->
-              </div>
-              
-              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1)">&#10095;</a>
-              
-              </div>
-              <br>
-              
-              <div style="text-align:center">
-                <span class="dot" onclick="currentSlide(1)"></span> 
-                <span class="dot" onclick="currentSlide(2)"></span> 
-                <span class="dot" onclick="currentSlide(3)"></span> 
-              </div>
 
-          </div>
-
-          <section id="nav">
-            <div class="row">
-            <div class="container">
-              <nav class="fixed-nav navbar-expand-lg">
-                <ul style="border-bottom: 1px solid  #d4c9c9;">
-                  <li><a href="#about">About</a></li>
-                  <li><a href="#fact">Facts</a></li>
-                  <li><a href="#itinerary">Itinerary</a></li>
-                  <li><a href="#cost">Cost Details</a></li>
-                  <!-- <li><a href="#">Reviews</a></li> -->
-                  <li><a href="#faq">Faqs</a></li>
-                  <li><a href="#note">Note</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-          </section>
-          <section id="content">
-              <div class="block" id="about">
-                <h4>ABOUT TRIP:</h4>
-                <p>Tamang Heritage and Langtang Valley is just an excellent choice for you to explore the cultural and traditional aspects of people in the Himalayan region along with a scenic walk through the gorgeous valley, beautiful terrains, and waterfalls and snow-capped mountain viewpoints. It is a perfect blend of culture and nature. Langtang area was severely affected by Earthquake 2015, yet the spirit of the region is still intact.<br/> 
-                  There are still some renovation and re-construction sites seen during the walk. Don’t miss a incredible walk through lush vegetation while passing charming villages and waterfalls towards the popular Langtang Valley to witness the grand view of Langtang range including Langtang Lirung (7234m), Langtang Ri (6427m), Naya Kanga (5844m), Dorje Lakpa (6966m), Gangchenpo (6387m), Yala Peak (5500m) and Tibetan range of mountains. </p>
-              </div>
-              <div class="block" id="fact">
-                <div class="row">
-                  <div class="col-sm-6">
-                      <h4>TRIP FACT</h4>
-                      <ul class="fact-info">
-                          <li>
-                            <span>Trip Name:</span>Tamang Heritage And Langtang Valley
-                          </li>
-                          <li>
-                            <span>Trip Code:</span>TAMANG-SBYKVV
-                          </li>
-                          <li>
-                            <span>Country:</span>Nepal
-                          </li>
-                          <li>
-                            <span>Type:</span>Group Tour,Group Tour,Multi-day Tour,Multi-day Tour
-                          </li>
-                          <li>
-                            <span>Activities:</span><a href="#">HIKING AND WALKING</a>
-                            <a href="#">MEET THE LOCALS</a>
-                          </li>
-                          <li>
-                            <span>Experiences:</span><a href="#">Culture ,Nature</a>
-                          </li>
-                      </ul>
-                  </div>
-                  <div class="col-sm-6">
-                      <h5>Trip Grade</h5>
-                      <ul class="grade-list">
                         <li>
-                          <span>Activity</span>
-                          <div class="progress"></div>
-                          <span class="rating">
+                            <i class="fa fa-heart-o" aria-hidden="true"></i>
+                            <span>0 Favourites</span>
+                        </li>
+                        <li>
+                            <i class="fa fa-calendar" aria-hidden="true"></i>
+                            <span>20 Days</span>
+
+                        </li>
+                        <li>
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span><a href="#">Namche Bazar</a>,<a href="">Nepal</a></span>
+                        </li>
+                        <li>
+                            <i class="fa fa-bar-chart" aria-hidden="true"></i>
+                            <span>Easy</span>
+                        </li>
+                        <li id="package-qr-list">
+                            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAV4AAAFeAQAAAADlUEq3AAAC3UlEQVR42u2bTbKjMAyE7cqCJUfIUXI0czSOwhGyzIJCI7Vkwo/hTdVspuo1G4L5vDGy1Wo7Sf7+mhNhwoQJE/5HeEm4lsenn/SuN23Ms/58DSIfvHwQbsL2SwbcRusDau7sKQu6LoQvYLy24X6KUqmXsejr93MsBk/2DQjfwfZaJKXOboIQlYhbwrcwBtjmusFDlk/MbsJ38GZ2R1CWaLxfCghvcopF6uF2nYAInwSLXsWo5+ixeSN7fjms81l0BusvWxHzjCcd2bf2SUgtu49CeK/rppdFqk7kQXOKDWrAWBhfA+E2bEFpWcRlX/IEbDkFIWrwZmEkvIPRXiKnIFIjKL2rNxJuwAuCUjMvYI/N5NO6LGvAEm7AMc4yx/poCbh4wYt3aTe7CQ97JYOgRHtG1YYnbRQf/IVwExbXyF6uIae42wJBg6eSCDdhq9PgFWi7+yvTOruj/M1CuAXHFQk4PeLJJOHgajotD8It2NSfaRcImq1+NlhcIBJuwzv9nL1qqyLwlLsJyyHDun72dBye1DtytOyXAsL5IIklh7nnMtqtl9r1qBgJf2e372D08Pi8aps7n90f+wYL4QvY0rEqmdRP7ixXX3S0oe6PdQrhrRuPcXbREiLQGwsad2KbcDlnWCs2xIfbk7M5VH5LhJswFPMr8nA1VqBrLKckN+UJt2EfUpGIRrNZ3HSp8prwNbzaeYhGXxjhxvvsToSbMHIK2qsIjBpudahkIdyEQ61YiQtXr6si8FlVTiF8BW8clSFyiu88uqVsm+CEW7CHqCVg2+7RDBMLI/YzUl00CTfgNW+EQwVJGIfxVpVDuAXHKQuZu3W/WwuRb9epcSSD8PFsz7TdyOjDhj+Ze4RP5xiRjjcb3avbUgjfwvXsZ/hVqy+KREP4RzicA9S9dfBlvD70+Othn93Voeq+JwZqIZIIt+H1HKNVGRA0m1MWsAyyEG7B/AMOYcKECf9/8B9A+Rj0IoxrcQAAAABJRU5ErkJg">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <div id="tour-images">
+
+                    </div>
+                </div>
+                <!--  <div id ="tourimg" class="slideshow-container">
+
+                    <div class="mySlides">
+                      <div class="numbertext">1 / 3</div>
+                      <img src="https://www.triplocator.com/image/banner/tour/everest-base-camp-yoga-trek/everest-base-camp-yoga-trek.jpg" style="width:100%">
+                      &lt;!&ndash; <div class="text">Caption Text</div> &ndash;&gt;
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">2 / 3</div>
+                      <img src="https://www.triplocator.com/image/banner/tourunverified/everest-base-camp-trek9/everest-base-camp.jpg" style="width:100%">
+                      &lt;!&ndash; <div class="text">Caption Two</div> &ndash;&gt;
+                    </div>
+
+                    <div class="mySlides">
+                      <div class="numbertext">3 / 3</div>
+                      <img src="https://www.triplocator.com/image/banner/tour/kathmandu-city-with-chitwan-national-park-tour/bhaktapurjpg.jpg" style="width:100%">
+                      &lt;!&ndash; <div class="text">Caption Three</div> &ndash;&gt;
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+                    </div>
+                    <br>-->
+
+                <!-- <div style="text-align:center">
+                   <span class="dot" onclick="currentSlide(1)"></span>
+                   <span class="dot" onclick="currentSlide(2)"></span>
+                   <span class="dot" onclick="currentSlide(3)"></span>
+                 </div>-->
+
+                <!--          </div>-->
+
+                <section id="nav">
+                    <div class="row">
+                        <div class="container">
+                            <nav class="fixed-nav navbar-expand-lg">
+                                <ul style="border-bottom: 1px solid  #d4c9c9;">
+                                    <li><a href="#about">About</a></li>
+                                    <li><a href="#fact">Facts</a></li>
+                                    <li><a href="#itinerary">Itinerary</a></li>
+                                    <li><a href="#cost">Cost Details</a></li>
+                                    <!-- <li><a href="#">Reviews</a></li> -->
+                                    <li><a href="#faq">Faqs</a></li>
+                                    <li><a href="#note">Note</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </section>
+                <section id="content">
+                    <div class="block" id="about">
+                        <h4>ABOUT TRIP:</h4>
+                        <p>Tamang Heritage and Langtang Valley is just an excellent choice for you to explore the
+                            cultural and traditional aspects of people in the Himalayan region along with a scenic walk
+                            through the gorgeous valley, beautiful terrains, and waterfalls and snow-capped mountain
+                            viewpoints. It is a perfect blend of culture and nature. Langtang area was severely affected
+                            by Earthquake 2015, yet the spirit of the region is still intact.<br/>
+                            There are still some renovation and re-construction sites seen during the walk. Don’t miss a
+                            incredible walk through lush vegetation while passing charming villages and waterfalls
+                            towards the popular Langtang Valley to witness the grand view of Langtang range including
+                            Langtang Lirung (7234m), Langtang Ri (6427m), Naya Kanga (5844m), Dorje Lakpa (6966m),
+                            Gangchenpo (6387m), Yala Peak (5500m) and Tibetan range of mountains. </p>
+                    </div>
+                    <div class="block" id="fact">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h4>TRIP FACT</h4>
+                                <ul class="fact-info">
+                                    <li>
+                                        <span>Trip Name:</span>Tamang Heritage And Langtang Valley
+                                    </li>
+                                    <li>
+                                        <span>Trip Code:</span>TAMANG-SBYKVV
+                                    </li>
+                                    <li>
+                                        <span>Country:</span>Nepal
+                                    </li>
+                                    <li>
+                                        <span>Type:</span>Group Tour,Group Tour,Multi-day Tour,Multi-day Tour
+                                    </li>
+                                    <li>
+                                        <span>Activities:</span><a href="#">HIKING AND WALKING</a>
+                                        <a href="#">MEET THE LOCALS</a>
+                                    </li>
+                                    <li>
+                                        <span>Experiences:</span><a href="#">Culture ,Nature</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6">
+                                <h5>Trip Grade</h5>
+                                <ul class="grade-list">
+                                    <li>
+                                        <span>Activity</span>
+                                        <div class="progress"></div>
+                                        <span class="rating">
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                             <i class="fa fa-star-o" aria-hidden="true"></i>
                           </span>
-                        </li>
-                      </ul>
-                      <h5>What to expect?</h5>
-                      <div id="what-to-expect">
-                        <p>Travelers can expect a fine heritage walk in the mixed tribal areas of Sherpa and Tamang people where the magnificent views of Himalayas shine while passing through the authentic villages and authentic Buddhist monasteries.
+                                    </li>
+                                </ul>
+                                <h5>What to expect?</h5>
+                                <div id="what-to-expect">
+                                    <p>Travelers can expect a fine heritage walk in the mixed tribal areas of Sherpa and
+                                        Tamang people where the magnificent views of Himalayas shine while passing
+                                        through the authentic villages and authentic Buddhist monasteries.
 
-                        </p>
-                      </div>
-                  </div>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block" id="itinerary">
+                        <h4>ITINERARY</h4>
+                        <div class="itinerary-wrapper">
+
+                        </div>
+                    </div>
+                    <div class="cost-details block" id="cost">
+                        <h4>COST DETAILS</h4>
+                        <div class="row">
+                            <div class="col-sm-6 cost_include">
+                                <h5>Price Include</h5>
+                            </div>
+                            <div class="col-sm-6 cost_exclude">
+                                <h5>Price Exclude</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FIXED DEPARTURE DATE -->
+                    <!-- <div class="departure-date block" id="departure">
+                      <h4>FIXED DEPARTURE DATES</h4>
+                      <h5>Select Departure</h5>
+                      <form class="form-inline">
+                      <label for="select-year">YEAR</label>
+                      <select class="form-control" name="departure-year" id="fd-select-year">
+                        <option>2020</option>
+                      </select>
+                      <label for="select-month">MONTH</label>
+                      <select class="form-control" name="departure-month" id="fd-select-month">
+                        <option>Jan</option>
+                        <option>Feb</option>
+                      </select>
+                    </form>
+                    <table class="table">
+
+                    </table>
+                    </div> -->
+                    <div class="block services" id="additional-service">
+                        <h4>ADDITONAL SERVICES</h4>
+                        <div class="row">
+                            <div class="addtional-service">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block faqs" id="faq">
+                        <h4>FAQS</h4>
+
+                    </div>
+                    <div class="block cancellation" id="policy">
+
+                    </div>
+                    <div class="block trip-notes" id="note">
+                        <h4>TRIP NOTES</h4>
+                    </div>
+                </section>
+                <div class="end">
+
                 </div>
-              </div>
-              <div class="block" id="itinerary">
-                  <h4>ITINERARY</h4>
-                  <div class="itinerary-wrapper">
-
-                  </div>
-              </div>
-              <div class="cost-details block" id="cost">
-                  <h4>COST DETAILS</h4>
-                  <div class="row">
-                      <div class="col-sm-6 cost_include">
-                        <h5>Price Include</h5>
-                      </div>
-                      <div class="col-sm-6 cost_exclude">
-                        <h5>Price Exclude</h5>
-                      </div>
-                  </div>
-              </div>
-
-              <!-- FIXED DEPARTURE DATE -->
-              <!-- <div class="departure-date block" id="departure">
-                <h4>FIXED DEPARTURE DATES</h4>
-                <h5>Select Departure</h5>
-                <form class="form-inline">
-                <label for="select-year">YEAR</label>
-                <select class="form-control" name="departure-year" id="fd-select-year">
-                  <option>2020</option>
-                </select>
-                <label for="select-month">MONTH</label>
-                <select class="form-control" name="departure-month" id="fd-select-month">
-                  <option>Jan</option>
-                  <option>Feb</option>
-                </select>
-              </form>
-              <table class="table">
-              
-              </table>
-              </div> -->
-              <div class="block services" id="additional-service">
-                <h4>ADDITONAL SERVICES</h4>
-                <div class="row">
-                  <div class="addtional-service">
-                  </div>
+            </div>
+            <div class="col-md-3">
+                <div class="calendar">
+                    <input type="text" class="tour-date form-control">
                 </div>
-              </div>
+            </div>
 
-              <div class="block faqs" id="faq">
-                <h4>FAQS</h4>
-
-              </div>
-              <div class="block cancellation" id="policy">
-               
-              </div>
-              <div class="block trip-notes" id="note">
-                <h4>TRIP NOTES</h4>
-              </div>
-          </section>
-          <div class="end">
-
-          </div>
         </div>
-        <div class="col-md-3">
-          <div class="calendar">
-            <input type="text" class="tour-date form-control">
-          </div>
-        </div>
-  
-      </div>
-  </section>
-  <section id="footer">
+</section>
+<section id="footer">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 220">
-      <path
-        fill="#f8f9fa"
-        fill-opacity="1"
-        d="M0,160L48,154.7C96,149,192,139,288,138.7C384,139,480,149,576,154.7C672,160,768,160,864,165.3C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
-      ></path>
+        <path
+                fill="#f8f9fa"
+                fill-opacity="1"
+                d="M0,160L48,154.7C96,149,192,139,288,138.7C384,139,480,149,576,154.7C672,160,768,160,864,165.3C960,171,1056,181,1152,165.3C1248,149,1344,107,1392,85.3L1440,64L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"
+        ></path>
     </svg>
     <div class="container">
-      <div class="row">
-        <div class="col-md-4 footer-box">
-          <p><b>ABOUT US</b></p>
-          <p>
-            TripLocator is an online travel company which specializes in providing travel services to destinations around the globe.We consider it a point of honor to connect you with only the world's best travel service providers.
-          </p>
+        <div class="row">
+            <div class="col-md-4 footer-box">
+                <p><b>ABOUT US</b></p>
+                <p>
+                    TripLocator is an online travel company which specializes in providing travel services to
+                    destinations around the globe.We consider it a point of honor to connect you with only the world's
+                    best travel service providers.
+                </p>
+            </div>
+            <div class="col-md-4 footer-box">
+                <p><b>CONTACT US</b></p>
+                <p>
+                    <i class="fa fa-map-marker"></i> Steamboat Springs, CO, United States
+                </p>
+                <p><i class="fa fa-phone"></i> + 970-367-5600</p>
+                <p><i class="fa fa-envelope-o"></i>contact@triplocator.com</p>
+            </div>
+            <div class="col-md-4 footer-box">
+                <p><b>SUBSCRIBE FOR UPDATES</b></p>
+                <input type="email" class="form-control" placeholder="Your Email"/>
+                <button type="button" class="btn btn-primary">Subscribe</button>
+            </div>
         </div>
-        <div class="col-md-4 footer-box">
-          <p><b>CONTACT US</b></p>
-          <p>
-            <i class="fa fa-map-marker"></i> Steamboat Springs, CO, United States
-          </p>
-          <p><i class="fa fa-phone"></i>  + 970-367-5600</p>
-          <p><i class="fa fa-envelope-o"></i>contact@triplocator.com</p>
-        </div>
-        <div class="col-md-4 footer-box">
-          <p><b>SUBSCRIBE FOR UPDATES</b></p>
-          <input type="email" class="form-control" placeholder="Your Email" />
-          <button type="button" class="btn btn-primary">Subscribe</button>
-        </div>
-      </div>
-      <hr />
-      <p class="copyright">© Copyright 2020 TripLocator Inc, USA All Rights Reserved  </p>
+        <hr/>
+        <p class="copyright">© Copyright 2020 TripLocator Inc, USA All Rights Reserved </p>
     </div>
-  </section>
-  <script src="smooth-scroll.js"></script>
-    <script src="./app.js"></script>
-    <script>
-      var scroll = new SmoothScroll('a[href*="#"]');
-    </script>
-  </body>
+</section>
+<script src="smooth-scroll.js"></script>
+<script src="./app.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]');
+</script>
+</body>
 </html>
