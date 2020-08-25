@@ -126,16 +126,6 @@ jQuery(function ($) {
   $(window).scroll(
     (function fix_element() {
       var position = $(this).scrollTop();
-
-      $(".section").each(function () {
-        var target = $(this).offset().top;
-        var id = $(this).attr("id");
-        if (position >= target) {
-          $("#navigation > ul > li > a").removeClass("active");
-          $("#navigation > ul > li > a[href=#" + id + "]").addClass("active");
-        }
-      });
-
       $("#nav").css(
         $(window).scrollTop() > 400
           ? {
