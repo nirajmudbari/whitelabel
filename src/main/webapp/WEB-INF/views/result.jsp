@@ -98,6 +98,7 @@
             <div id="search-result"></div>
 
 
+
         </div>
         <div class="col-md-9 page-right">
             <h3>Search Results</h3>
