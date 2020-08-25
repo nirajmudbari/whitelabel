@@ -33,20 +33,20 @@ $.ajax({
   },
 });
 $.ajax({
-    type: "GET",
-    contentType: "application/json",
-    url: site_url + "/priceExclude",
-    success: function (data) {
-        $(".cost_exclude").append(data.priceExclude);
-    },
+  type: "GET",
+  contentType: "application/json",
+  url: site_url + "/priceExclude",
+  success: function (data) {
+    $(".cost_exclude").append(data.priceExclude);
+  },
 });
 $.ajax({
-    type: "GET",
-    contentType: "application/json",
-    url: site_url + "/additonalServices",
-    success: function (data) {
-        $(".addtional-service").append(data.service);
-    },
+  type: "GET",
+  contentType: "application/json",
+  url: site_url + "/additonalServices",
+  success: function (data) {
+    $(".addtional-service").append(data.service);
+  },
 });
 // TODO: check if the itinerary is simple or advanced
 //after data fetch
@@ -57,68 +57,68 @@ $.ajax({
 //   $(".table").html(tableHtml);
 // }
 $(document).ready(function () {
-    $.ajax({
-        type: "GET",
-        contentType: "application/json",
-        url: site_url + "/images",
-        success: function (data) {
-            displayImages(data);
-        },
-    });
-    // for faq
-    $.ajax({
-        url: site_url + "/faqs",
-        type: "GET",
-        contentType: "application/json",
-    }).done(function (json) {
-        var faqHtml = "";
-        if (json.length === 0) {
-            $("#faq").append(
-                '<div class="panel-group" id="accordion" aria-multiselectable="true"><strong>No Faq Available</strong></div>'
-            );
-        } else {
-            json.forEach((data) => {
-                faqHtml = `<button class="accordion">${data.question}</button><div class="panel" id="panel-${data.id}"><p>${data.answer}</p></div>`;
-                $("#faq").append(faqHtml);
-            });
-            var acc = document.querySelectorAll(".accordion");
-            for (let i = 0; i < acc.length; i++) {
-                var activePanel;
-                acc[i].addEventListener("click", function () {
-                    this.classList.toggle("active");
-                    var panel = this.nextElementSibling;
-                    if (panel.style.maxHeight) {
-                        panel.style.maxHeight = null;
-                    } else {
-                        if (activePanel) {
-                            activePanel.style.maxHeight = null;
-                        }
-                        panel.style.maxHeight = panel.scrollHeight + "px";
-                        activePanel = panel;
-                    }
-                });
+  $.ajax({
+    type: "GET",
+    contentType: "application/json",
+    url: site_url + "/images",
+    success: function (data) {
+      displayImages(data);
+    },
+  });
+  // for faq
+  $.ajax({
+    url: site_url + "/faqs",
+    type: "GET",
+    contentType: "application/json",
+  }).done(function (json) {
+    var faqHtml = "";
+    if (json.length === 0) {
+      $("#faq").append(
+        '<div class="panel-group" id="accordion" aria-multiselectable="true"><strong>No Faq Available</strong></div>'
+      );
+    } else {
+      json.forEach((data) => {
+        faqHtml = `<button class="accordion">${data.question}</button><div class="panel" id="panel-${data.id}"><p>${data.answer}</p></div>`;
+        $("#faq").append(faqHtml);
+      });
+      var acc = document.querySelectorAll(".accordion");
+      for (let i = 0; i < acc.length; i++) {
+        var activePanel;
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("current");
+          var panel = this.nextElementSibling;
+          if (panel.style.maxHeight) {
+            panel.style.maxHeight = null;
+          } else {
+            if (activePanel) {
+              activePanel.style.maxHeight = null;
             }
+            panel.style.maxHeight = panel.scrollHeight + "px";
+            activePanel = panel;
+          }
+        });
+      }
+    }
+  });
+  $.ajax({
+    type: "GET",
+    contentType: "application/json",
+    url: site_url + "/policy",
+    success: function (data) {
+      var policyHtml;
+      policyHtml = `<button class="policy-accordion"><h4>CANCELLATION POLICY</h4></button><div class="policy-panel"><p>${data.cancellation}</p></div>`;
+      $("#policy").append(policyHtml);
+      var acc = document.querySelector(".policy-accordion");
+      acc.addEventListener("click", function () {
+        var panel = acc.nextElementSibling;
+        if (panel.style.maxHeight) {
+          panel.style.maxHeight = null;
+        } else {
+          panel.style.maxHeight = panel.scrollHeight + "px";
         }
-    });
-    $.ajax({
-        type: "GET",
-        contentType: "application/json",
-        url: site_url + "/policy",
-        success: function (data) {
-            var policyHtml;
-            policyHtml = `<button class="policy-accordion"><h4>CANCELLATION POLICY</h4></button><div class="policy-panel"><p>${data.cancellation}</p></div>`;
-            $("#policy").append(policyHtml);
-            var acc = document.querySelector(".policy-accordion");
-            acc.addEventListener("click", function () {
-                var panel = acc.nextElementSibling;
-                if (panel.style.maxHeight) {
-                    panel.style.maxHeight = null;
-                } else {
-                    panel.style.maxHeight = panel.scrollHeight + "px";
-                }
-            });
-        },
-    });
+      });
+    },
+  });
 });
 $.ajax({
   type: "GET",
@@ -130,22 +130,22 @@ $.ajax({
 });
 
 //for fixed nav
+
 jQuery(function ($) {
   $(window).scroll(
     (function fix_element() {
       var position = $(this).scrollTop();
-
-      $(".section").each(function () {
-        var target = $(this).offset().top;
-        var id = $(this).attr("id");
-        if (position >= target) {
-          $("#navigation > ul > li > a").removeClass("active");
-          $("#navigation > ul > li > a[href=#" + id + "]").addClass("active");
-        }
-      });
-
-      $("#nav").css(
-        $(window).scrollTop() > 400
+      $("#middle-nav").css(
+        $(window).scrollTop() > 800
+          ? {
+              zIndex: 1,
+              position: "fixed",
+              top: "50px",
+            }
+          : { position: "relative", top: "auto" }
+      );
+      $(".booking").css(
+        $(window).scrollTop() > 800
           ? {
               zIndex: 1,
               position: "fixed",
@@ -154,9 +154,9 @@ jQuery(function ($) {
           : { position: "relative", top: "auto" }
       );
 
-            return fix_element;
-        })()
-    );
+      return fix_element;
+    })()
+  );
 });
 
 var slideIndex = 1;
@@ -165,7 +165,7 @@ function plusSlides(n) {
 }
 
 function currentSlide(n) {
-  showSlides(slideIndex = n);
+  showSlides((slideIndex = n));
 }
 
 function showSlides(n) {
@@ -188,27 +188,32 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-
-
 function displayImages(data) {
-    console.log(data);
-    let html = '<div id ="tourimg" class="slideshow-container">';
-    var x = 1;
-    data.forEach((obj) => {
-        html += '   <div class="mySlides">\n' +
-            '                <div class="numbertext">' + x + ' /' + data.length + '</div>\n' +
-            '                <img src="' + obj.url + '" style="width:100%">\n' +
-            '              </div>';
-        x++;
-    });
-    html += '  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>\n' +
-        '              <a class="next" onclick="plusSlides(1)">&#10095;</a></div><br/><div style="text-align:center">';
-    var i;
-    for (i = 1; i <=data.length; i++) {
-        html+=' <span class="dot" onclick="currentSlide('+i+')"></span> \n';
-    }
-    const inputElement = document.getElementById('tour-images');
-    $(inputElement).html(html);
-    showSlides(slideIndex);
-
+  console.log(data);
+  let html = '<div id ="tourimg" class="slideshow-container">';
+  var x = 1;
+  data.forEach((obj) => {
+    html +=
+      '   <div class="mySlides">\n' +
+      '                <div class="numbertext">' +
+      x +
+      " /" +
+      data.length +
+      "</div>\n" +
+      '                <img src="' +
+      obj.url +
+      '" style="width:100%">\n' +
+      "              </div>";
+    x++;
+  });
+  html +=
+    '  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>\n' +
+    '              <a class="next" onclick="plusSlides(1)">&#10095;</a></div><br/><div style="text-align:center">';
+  var i;
+  for (i = 1; i <= data.length; i++) {
+    html += ' <span class="dot" onclick="currentSlide(' + i + ')"></span> \n';
+  }
+  const inputElement = document.getElementById("tour-images");
+  $(inputElement).html(html);
+  showSlides(slideIndex);
 }

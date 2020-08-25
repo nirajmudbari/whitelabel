@@ -7,7 +7,6 @@
     <list default="true" id="01675998-7df5-48f1-b675-e51f8aa4e788" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,17 +73,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.WhitelabelApplication">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/main/resources/static/js/app.js" working-dir="$PROJECT_DIR$/src/main/resources/static/js">
       <method v="2" />
     </configuration>
@@ -126,6 +114,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="100" y="98" width="1166" height="505" key="DiffContextDialog" timestamp="1598366918142">
+      <screen x="0" y="0" width="1366" height="703" />
+    </state>
+    <state x="100" y="98" width="1166" height="505" key="DiffContextDialog/0.0.1366.703@0.0.1366.703" timestamp="1598366918142" />
     <state width="1323" height="208" key="GridCell.Tab.0.bottom" timestamp="1598085364472">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -158,6 +150,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1323" height="208" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1598085364473" />
+    <state x="449" y="53" width="458" height="595" key="RollbackChangesDialog" timestamp="1598366706759">
+      <screen x="0" y="0" width="1366" height="703" />
+    </state>
+    <state x="449" y="53" width="458" height="595" key="RollbackChangesDialog/0.0.1366.703@0.0.1366.703" timestamp="1598366706759" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1597722487514">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
