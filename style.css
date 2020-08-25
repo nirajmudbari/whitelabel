@@ -5,6 +5,7 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
+  line-height: 1.9;
 }
 #nav-bar {
   position: sticky;
@@ -45,6 +46,25 @@ body {
   font-size: 26px;
   font-weight: 700;
   margin: 0;
+  color: #4d8d0d;
+}
+#main-content h4 {
+  margin-bottom: 15px;
+  color: #4d8d0d;
+  font-size: 20px;
+  font-weight: 600;
+}
+#main-content h5 {
+  font-size: 16px;
+  padding: 0;
+  margin-top: 0;
+  font-weight: 600;
+}
+#main-content p {
+  color: rgb(77, 73, 73);
+}
+.block {
+  margin-bottom: 40px;
 }
 .product-info {
   background: #fff;
@@ -87,6 +107,7 @@ body {
 #tour-images{
   margin-top: 10px;
 }
+
 body {
   background-color: #aacccc;
 }
@@ -145,9 +166,120 @@ h3 {
 }
 #nav {
   margin-bottom: 20px;
+  border-bottom: "1px solid #d4c9c9";
 }
+
 .form-inline label {
   margin-right: 5px;
+}
+
+/* trip fact css */
+.fact-info {
+  font-size: 13px;
+}
+.fact-info > li:not(:last-child) {
+  margin-bottom: 8px;
+  border-bottom: 1px dotted #e5e5e5;
+}
+.fact-info > li {
+  list-style: none;
+  padding: 8px;
+}
+.fact-info > li span {
+  display: inline-block;
+  margin-right: 5px;
+  font-weight: 600;
+}
+/* grade list css */
+.grade-list {
+  padding: 0;
+  margin-bottom: 30px;
+  font-size: 13px;
+}
+.grade-list > li {
+  list-style: none;
+}
+.grade-list > li span {
+  min-width: 70px;
+}
+.grade-list > li span .fa {
+  font-size: 12px !important;
+}
+.grade-list > li .progress {
+  min-width: 150px;
+  margin: 0;
+  height: 6px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.grade-list > li .progress,
+.grade-list > li span {
+  display: inline-block;
+  vertical-align: middle;
+}
+/* //itinerary  css */
+.itinerary-wrapper {
+  border-left: 1px solid #ececec;
+  padding-left: 30px;
+  margin-left: 11px;
+}
+/* cost details css */
+.cost-details ul li {
+  text-align: left;
+  list-style: none;
+  position: relative;
+  display: block;
+  padding-left: 20px;
+  margin-bottom: 8px;
+  line-height: 1.4;
+  color: rgb(77, 73, 73);
+}
+.cost-details .cost_include ul li:before {
+  content: "\f058";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  /*--adjust as necessary--*/
+  color: #4d8d0d;
+  font-size: 14px;
+  padding-right: 0.5em;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+.cost-details .cost_exclude ul li:before {
+  content: "\f057";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  /*--adjust as necessary--*/
+  color: #80837d;
+  font-size: 14px;
+  padding-right: 0.5em;
+  position: absolute;
+  top: 2px;
+  left: 0;
+}
+
+/* addtional services css */
+#additional-service .addtional-service li {
+  list-style: none;
+  padding-left: 35px;
+}
+#additional-service .addtional-service ul li:before {
+  content: "\f058";
+  font-family: FontAwesome;
+  font-style: normal;
+  font-weight: normal;
+  text-decoration: inherit;
+  /*--adjust as necessary--*/
+  color: #4d8d0d;
+  font-size: 14px;
+  padding-right: 0.5em;
+  position: absolute;
+  left: 15px;
 }
 
 #departure .form-inline .form-control {
@@ -156,6 +288,107 @@ h3 {
   border-radius: 2px;
   margin-right: 20px;
   box-shadow: none;
+}
+.accordion {
+  background: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 13px;
+  width: 100%;
+  border: none;
+  outline: none !important;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.5s;
+  border-right: 1px solid #efefef;
+  border-left: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+}
+.panel {
+  padding: 0 15px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  border-right: 1px solid #efefef;
+  border-left: 1px solid #efefef;
+}
+.policy-accordion {
+  background: #f9f9f9;
+  color: #444;
+  cursor: pointer;
+  padding-right: 13px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 0;
+  width: 100%;
+  border: none;
+  outline: none !important;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 600;
+  transition: 0.5s;
+}
+.policy-panel {
+  padding: 0 15px;
+  background: #f9f9f9;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-in;
+}
+#footer {
+  background-image: linear-gradient(to right, #4d8d0d, #5ca80fec);
+  color: #fff;
+  overflow: hidden;
+}
+.footer-box img {
+  height: 60px;
+}
+.footer-box p {
+  margin-top: 20px;
+}
+.footer-box .fa {
+  margin-right: 8px;
+  font-size: 25px;
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  border-radius: 2px;
+  padding-top: 7px;
+  background-image: linear-gradient(to right, #4d8d0d, #5ca80fec);
+}
+.footer-box .form-control {
+  box-shadow: none !important;
+  border-radius: 0;
+  margin-top: 25px;
+  max-width: 250px;
+}
+.footer-box button {
+  box-shadow: none !important;
+  background-image: linear-gradient(to right, #4d8d0d, #5ca80fec);
+  border-radius: 0;
+  margin-top: 25px;
+  outline: none;
+  border: none;
+}
+hr {
+  background-color: #fff;
+}
+.copyright {
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 20px;
+}
+
+.end {
+  display: block;
+  padding-top: 30px;
+  border-top: 2px solid #e0e0e0;
+  font-size: 15px;
+  font-weight: 600;
 }
 
 /* this is css part for image slider */
