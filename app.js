@@ -4,33 +4,33 @@ const costExclude = document.querySelector(".cost_exclude");
 
 var site_url = "http://localhost:3000";
 $(document).ready(function () {
-    $(".tour-date").datepicker({numberOfMonths: [1, 1]});
+  $(".tour-date").datepicker({ numberOfMonths: [1, 1] });
 });
 $.ajax({
-    type: "GET",
-    url: site_url + "/images",
-    contentType: "applicaiton/json",
-    success: function (data) {
-        // populateImageSliderData(data);
-    },
-});
-
-$.ajax({
-    type: "GET",
-    contentType: "application/json",
-    url: site_url + "/simpleItinerary",
-    success: function (data) {
-        $(".itinerary-wrapper").append(data.itinerary);
-    },
+  type: "GET",
+  url: site_url + "/images",
+  contentType: "applicaiton/json",
+  success: function (data) {
+    // populateImageSliderData(data);
+  },
 });
 
 $.ajax({
-    type: "GET",
-    contentType: "application/json",
-    url: site_url + "/priceInclude",
-    success: function (data) {
-        $(".cost_include").append(data.tripPriceInclude);
-    },
+  type: "GET",
+  contentType: "application/json",
+  url: site_url + "/simpleItinerary",
+  success: function (data) {
+    $(".itinerary-wrapper").append(data.itinerary);
+  },
+});
+
+$.ajax({
+  type: "GET",
+  contentType: "application/json",
+  url: site_url + "/priceInclude",
+  success: function (data) {
+    $(".cost_include").append(data.tripPriceInclude);
+  },
 });
 $.ajax({
     type: "GET",
@@ -121,74 +121,73 @@ $(document).ready(function () {
     });
 });
 $.ajax({
-    type: "GET",
-    contentType: "application/json",
-    url: site_url + "/tripNotes",
-    success: function (data) {
-        $("#note").append(data.tripNotes);
-    },
+  type: "GET",
+  contentType: "application/json",
+  url: site_url + "/tripNotes",
+  success: function (data) {
+    $("#note").append(data.tripNotes);
+  },
 });
 
 //for fixed nav
 jQuery(function ($) {
-    $(window).scroll(
-        (function fix_element() {
-            var position = $(this).scrollTop();
+  $(window).scroll(
+    (function fix_element() {
+      var position = $(this).scrollTop();
 
-            $(".section").each(function () {
-                var target = $(this).offset().top;
-                var id = $(this).attr("id");
-                if (position >= target) {
-                    $("#navigation > ul > li > a").removeClass("active");
-                    $("#navigation > ul > li > a[href=#" + id + "]").addClass("active");
-                }
-            });
+      $(".section").each(function () {
+        var target = $(this).offset().top;
+        var id = $(this).attr("id");
+        if (position >= target) {
+          $("#navigation > ul > li > a").removeClass("active");
+          $("#navigation > ul > li > a[href=#" + id + "]").addClass("active");
+        }
+      });
 
-            $("#nav").css(
-                $(window).scrollTop() > 400
-                    ? {
-                        zIndex: 1,
-                        position: "fixed",
-                        top: "50px",
-                    }
-                    : {position: "relative", top: "auto"}
-            );
+      $("#nav").css(
+        $(window).scrollTop() > 400
+          ? {
+              zIndex: 1,
+              position: "fixed",
+              top: "50px",
+            }
+          : { position: "relative", top: "auto" }
+      );
 
             return fix_element;
         })()
     );
 });
 
-
 var slideIndex = 1;
 showSlides(slideIndex);
 
 function plusSlides(n) {
-    showSlides(slideIndex += n);
+  showSlides((slideIndex += n));
 }
 
 function currentSlide(n) {
-    showSlides(slideIndex = n);
+  showSlides(slideIndex = n);
 }
 
 function showSlides(n) {
-    var i;
-    var slides = document.getElementsByClassName("mySlides");
-    var dots = document.getElementsByClassName("dot");
-    if (n > slides.length) {
-        slideIndex = 1
-    }
-    if (n < 1) {
-        slideIndex = slides.length
-    }
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-    }
-    for (i = 0; i < dots.length; i++) {
-        dots[i].className = dots[i].className.replace(" active", "");
-    }
-    slides[slideIndex - 1].style.display = "block";
-    dots[slideIndex - 1].className += " active";
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {
+    slideIndex = 1;
+  }
+  if (n < 1) {
+    slideIndex = slides.length;
+  }
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex - 1].style.display = "block";
+  dots[slideIndex - 1].className += " active";
 }
 
 
